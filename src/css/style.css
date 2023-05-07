@@ -1,0 +1,177 @@
+* {
+    text-align: center;
+}
+
+body {
+    font-size: 16px;
+    color: #333;
+    font-family: "Hind", sans-serif;
+    background-color: #f3ffe1;
+}
+
+#profile-body {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+img {
+    max-height: 100px;
+    margin: 10;
+}
+
+form {
+    margin-top: 50px;
+}
+
+header {
+    margin-bottom: 20px;
+    font-family: "Londrina Shadow", cursive;
+    font-size: 40px;
+    color: #7bf1a8;
+}
+
+h2 {
+    font-family: "Londrina Shadow", cursive;
+    font-size: 40px;
+    color: #7bf1a8;
+    background-color: #dfffd6;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+#user-input {
+    display: none;
+    border: 2px solid black;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-flow: column wrap;
+}
+
+#user-input button {
+    display: flex;
+    margin: 10px auto;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #7bf1a8;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#profile-container {
+    display: flex;
+    margin-bottom: 20px;
+    flex-flow: column;
+}
+
+#profile-container button {
+    margin: 10 auto;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #7bf1a8;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 150;
+}
+
+#profile-container #log-out {
+    background-color: #f8bbd0;
+}
+
+#profile-container #remove-btn,
+#profile-container #remove-posts {
+    background-color: #dc3545;
+}
+
+#post-container {
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+#post-container label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+#post-container textarea {
+    width: 500px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#post-container textarea:focus {
+    outline: none;
+    border-color: palevioletred;
+}
+
+#post-container button {
+    display: block;
+    margin: 10 auto;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #7bf1a8;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.post-card {
+    margin: 10 auto;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #f8f9fa;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#post-card {
+    background-color: #dfffd6;
+}
+
+#other-users-container {
+    margin-bottom: 20px;
+}
+
+#user-choice {
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+}
+
+#user-choice button {
+    padding: 10px;
+    margin: 10 auto;
+    font-size: 16px;
+    background-color: #dfffd6;
+    border: none;
+    cursor: pointer;
+    width: fit-content;
+    border-radius: 10;
+}
+
+.user-card img {
+    cursor: pointer;
+}
+
+#user-input img {
+    cursor: pointer;
+}
+
+.other-users-posts {
+    width: 500px;
+}
+
+a #log-out,
+#back a {
+    color: white;
+    text-decoration: none;
+}
